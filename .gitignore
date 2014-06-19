@@ -30,6 +30,7 @@ db/*.sqlite3
 /config/config.yml
 /config/database.yml
 /coverage.data
+/spec/reports/
 /coverage/
 /db/*.javadb/
 /db/*.sqlite3

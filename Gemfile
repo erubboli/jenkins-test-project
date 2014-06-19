@@ -33,6 +33,8 @@ group :development, :test do
   gem 'rspec-rails'
 end
 group :test do
+  gem 'rspec-legacy_formatters'
+  gem "codeclimate-test-reporter", require: nil
   gem 'ci_reporter'
   gem 'simplecov', '~> 0.7.1'
   gem 'capybara'
