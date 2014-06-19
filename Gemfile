@@ -37,6 +37,7 @@ group :test do
   gem "codeclimate-test-reporter", require: nil
   gem 'ci_reporter'
   gem 'simplecov', '~> 0.7.1'
+  gem 'simplecov-rcov'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'faker'
